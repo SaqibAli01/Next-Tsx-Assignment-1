@@ -1,0 +1,140 @@
+.Box1 {
+    width: 100%;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+.head_per h1 {
+    position: absolute;
+    width: 555px;
+    height: 104px;
+    left: 165px;
+    top: 157px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 120%;
+    /* or 52px */
+
+    color: #0F1F48;
+
+}
+
+.head_per p {
+    position: absolute;
+    width: 526px;
+    height: 72px;
+    left: 165px;
+    top: 282px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #677088;
+}
+
+.head_per button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 31px;
+    gap: 10px;
+
+    position: absolute;
+    /* width: 140px; */
+    height: 45px;
+    left: 165px;
+    top: 384px;
+
+    /* green_main */
+
+    background: #67CBAB;
+    border-radius: 50px;
+}
+
+
+.head_per button:hover{
+    background-color: yellow;
+}
+@media only screen and (max-width: 700px) and (min-width: 400px)  {
+
+    .head_per {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head_per h1 {
+     
+        position: absolute;
+        width: 100%;
+     
+        left: 20px;
+        /* top: 157px; */
+        font-weight: 400;
+        font-size: 33px;
+        
+    
+    }
+    
+    .head_per p {
+        position: absolute;
+        width: 100%;
+     
+        left: 20px;
+        /* top: 157px; */
+        font-weight: 400;
+        font-size: 18px;
+        
+    }
+    .head_per button {
+        position: absolute;
+        left: 20px;
+        top: 430px;
+    }
+ 
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .head_per {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head_per h1 {
+     
+        position: absolute;
+        width: 100%;
+     
+        left: 20px;
+        /* top: 157px; */
+        font-weight: 400;
+        font-size: 33px;
+        
+    
+    }
+    
+    .head_per p {
+        position: absolute;
+        width: 100%;
+     
+        left: 20px;
+        /* top: 157px; */
+        font-weight: 400;
+        font-size: 18px;
+        
+    }
+    .head_per button {
+      
+        position: absolute;
+        left: 20px;
+        top: 430px;
+    }
+ 
+
+}

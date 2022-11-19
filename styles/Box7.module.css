@@ -1,0 +1,61 @@
+.Box7 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    color: black;
+    overflow: hidden;
+    padding: 3%;
+    /* background-color: black; */
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    /* background-color: aqua;
+    border: 2px solid red; */
+}
+
+.hding h1 {
+    color: #020202;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    /* background-color: aqua; */
+
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    /* height: 50px; */
+    /* background: #67CBAB; */
+}
+
+.btns h3 {
+    /* width: 152px; */
+    /* height: 24px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+
+}
+.btns h3:hover{
+    background-color: green;
+    color: #fff;
+}
+.selr{
+    background: #67CBAB;
+    color: #fff !important;
+}
+.pp{
+    text-align: justify;
+    /* background-color: yellow; */
+}
